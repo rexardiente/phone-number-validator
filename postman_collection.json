@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "97f33bb9-31c6-4d5e-b918-cac4e42015c8",
+		"name": "Backend Exam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Phone Numbers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/phone-numbers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"phone-numbers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Get Phone Number",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone\": \"09981234567\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/phone-number/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"phone-number",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Get Phone Number",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone\": \"09981234567\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/phone-number",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"phone-number"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Phone Number",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phone\": \"09981234567\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/phone-number/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"phone-number",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
