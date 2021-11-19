@@ -2,8 +2,7 @@
 Phone number validator using ExpressJS with Typescript.
 
 ### Install common dependencies
-  npm install express
-  npm install typescript ts-node @types/node @types/express --save-dev
+  npm install express typescript ts-node @types/node @types/express --save-dev
 
 ### pg-mem is an experimental in-memory emulation of a postgres database.
   npm i pg-mem --save
